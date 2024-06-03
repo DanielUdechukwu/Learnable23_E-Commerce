@@ -1,0 +1,26 @@
+.bestseller {
+  width: 90%;
+  margin: 6rem auto 0 auto;
+}
+
+.bestseller-header {
+  text-align: center;
+}
+
+.bestseller-header h3 {
+  margin-bottom: 0.5rem;
+}
+
+.bestseller-header h2 {
+  margin-bottom: 0.5rem;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.product-image img {
+  width: 100%;
+}
